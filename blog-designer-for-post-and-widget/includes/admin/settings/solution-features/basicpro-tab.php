@@ -12,9 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 } ?>
 <div id="bdpw_basic_tabs" class="bdpw-vtab-cnt bdpw_basic_tabs bdpw-clearfix">
-	
-	<!-- <h3 style="text-align:center">Compare <span class="bdpw-sf-blue">"Blog Designer - Post and Widget"</span> Free VS Pro</h3> -->
-
+	<?php /*
 	<!-- <div class="bdpw-deal-offer-wrap">
 		<div class="bdpw-deal-offer"> 
 			<div class="bdpw-inn-deal-offer">
@@ -40,6 +38,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 		</div>
 	</div>
+*/ ?>
+
+	<div class="bdpw-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( BDPW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( BDPW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
+	<h3 style="text-align:center">Compare <span class="bdpw-sf-blue">"Blog Designer - Post and Widget"</span> Free VS Pro</h3> 
 
 	<table class="wpos-plugin-pricing-table">
 		<colgroup></colgroup>
@@ -190,6 +195,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</tbody>
 	</table>
 
+	<?php /*
 	<!-- <div class="bdpw-deal-offer-wrap">
 		<div class="bdpw-deal-offer"> 
 			<div class="bdpw-inn-deal-offer">
@@ -213,6 +219,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<a href="<?php echo esc_url( BDPW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="bdpw-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div>
+	*/ ?>
+
+	<div class="bdpw-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( BDPW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( BDPW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
 
 </div>

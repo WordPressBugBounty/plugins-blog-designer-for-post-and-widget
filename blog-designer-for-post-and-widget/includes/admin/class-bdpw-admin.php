@@ -40,7 +40,7 @@ class Bdpw_Admin {
 		add_submenu_page( 'bdpw-about', __('Overview - blog-designer-for-post-and-widget', 'blog-designer-for-post-and-widget'), '<span style="color:#2ECC71">'. __('Overview', 'blog-designer-for-post-and-widget').'</span>', 'manage_options', 'bdpw-solutions-features', array($this, 'bdpw_solutions_features_page') );
 
 		// Upgrade To PRO page
-		add_submenu_page( 'bdpw-about', __('Upgrade To PRO - Blog Designer', 'blog-designer-for-post-and-widget'), '<span style="color:#ff2700">' . __('Upgrade To Premium -  Try Pro For 5 Days Free', 'blog-designer-for-post-and-widget') . '</span>', 'manage_options', 'bdpw-premium', array($this, 'bdpw_premium_page') );
+		add_submenu_page( 'bdpw-about', __('Upgrade To PRO - Blog Designer', 'blog-designer-for-post-and-widget'), '<span style="color:#ff2700">' . __('Upgrade To PRO – Early Back Friday Deals', 'blog-designer-for-post-and-widget') . '</span>', 'manage_options', 'bdpw-premium', array($this, 'bdpw_premium_page') );
 	}
 
 	/**

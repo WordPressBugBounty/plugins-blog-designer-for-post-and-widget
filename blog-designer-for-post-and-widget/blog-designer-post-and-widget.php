@@ -3,7 +3,7 @@
  * Plugin Name: Blog Designer - Post and Widget
  * Plugin URL: https://www.essentialplugin.com/wordpress-plugin/blog-designer-post-and-widget/
  * Description: Display Post on your website with 2 designs(Grid and Slider) with 1 widget. Also work with Gutenberg shortcode block.
- * Version: 2.7.1
+ * Version: 2.7.2
  * Author: WP OnlineSupport, Essential Plugin
  * Text Domain: blog-designer-for-post-and-widget
  * Domain Path: /languages/
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'BDPW_VERSION' ) ) {
-	define( 'BDPW_VERSION', '2.7.1' ); // Version of plugin
+	define( 'BDPW_VERSION', '2.7.2' ); // Version of plugin
 }
 if( ! defined( 'BDPW_DIR' ) ) {
 	define( 'BDPW_DIR', dirname( __FILE__ ) ); // Plugin dir
@@ -58,11 +58,11 @@ if( ! defined( 'BDPW_SITE_LINK' ) ) {
 }
 
 if( ! defined( 'BDPW_PLUGIN_BUNDLE_LINK' ) ) {
-	define('BDPW_PLUGIN_BUNDLE_LINK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Blog-Designer&utm_campaign=Welcome-Screen'); // Plugin link
+	define('BDPW_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Blog-Designer&utm_campaign=Welcome-Screen'); // Plugin link
 }
 
 if( ! defined( 'BDPW_PLUGIN_LINK_UNLOCK' ) ) {
-	define('BDPW_PLUGIN_LINK_UNLOCK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Blog-Designer&utm_campaign=Features-PRO'); // Plugin link
+	define('BDPW_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Blog-Designer&utm_campaign=Features-PRO'); // Plugin link
 }
 
 /**
