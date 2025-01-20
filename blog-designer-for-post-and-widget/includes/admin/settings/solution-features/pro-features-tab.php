@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="bdpw_themes_tabs" class="bdpw-vtab-cnt bdpw_themes_tabs bdpw-clearfix">
 	
-	 <div class="bdpw-black-friday-banner-wrp">
-        <a href="<?php echo esc_url( BDPW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( BDPW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-    </div>
+	<!-- <div class="bdpw-black-friday-banner-wrp">
+        <a href="<?php // echo esc_url( BDPW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( BDPW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+    </div> -->
 
 	<div class="bdpw-features-section">
 		<div class="bdpw-sf-center">
@@ -80,7 +80,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div>
 	*/ ?>
 
-	<div class="bdpw-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( BDPW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( BDPW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="bdpw-black-friday-banner-wrp">
+		<a href="<?php // echo esc_url( BDPW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( BDPW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 </div>

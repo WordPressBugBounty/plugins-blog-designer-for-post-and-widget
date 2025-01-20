@@ -187,7 +187,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 								<li><?php esc_html_e( '100% Multilanguage.', 'blog-designer-for-post-and-widget' ); ?></li>
 							</ul>
 							<div class="upgrade-to-pro"><?php echo sprintf( esc_html__('Gain access to %sBlog Designer - Post and Widget Pro%s', 'blog-designer-for-post-and-widget' ), '<strong>', '</strong>' ); ?></div>
-							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url( BDPW_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><?php esc_html_e('Try Pro with Back Friday Deals', 'blog-designer-for-post-and-widget'); ?></a>
+							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url( BDPW_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><?php esc_html_e('Upgrade To PRO', 'blog-designer-for-post-and-widget'); ?></a>
 						</div><!-- .inside -->
 					</div><!-- #general -->
 

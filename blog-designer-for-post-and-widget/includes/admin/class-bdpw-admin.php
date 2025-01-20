@@ -37,10 +37,10 @@ class Bdpw_Admin {
 		add_menu_page( __('Blog Designer', 'blog-designer-for-post-and-widget'), __('Blog Designer', 'blog-designer-for-post-and-widget'), 'manage_options', 'bdpw-about',  array($this, 'bdpw_settings_page'), 'dashicons-sticky' );
 
 		// Setting page
-		add_submenu_page( 'bdpw-about', __('Overview - blog-designer-for-post-and-widget', 'blog-designer-for-post-and-widget'), '<span style="color:#2ECC71">'. __('Overview', 'blog-designer-for-post-and-widget').'</span>', 'manage_options', 'bdpw-solutions-features', array($this, 'bdpw_solutions_features_page') );
+		add_submenu_page( 'bdpw-about', __('Overview - blog-designer-for-post-and-widget', 'blog-designer-for-post-and-widget'), __('Overview', 'blog-designer-for-post-and-widget'), 'manage_options', 'bdpw-solutions-features', array($this, 'bdpw_solutions_features_page') );
 
 		// Upgrade To PRO page
-		add_submenu_page( 'bdpw-about', __('Upgrade To PRO - Blog Designer', 'blog-designer-for-post-and-widget'), '<span style="color:#ff2700">' . __('Upgrade To PRO – Early Back Friday Deals', 'blog-designer-for-post-and-widget') . '</span>', 'manage_options', 'bdpw-premium', array($this, 'bdpw_premium_page') );
+		add_submenu_page( 'bdpw-about', __('Upgrade To PRO - Blog Designer', 'blog-designer-for-post-and-widget'), '<span style="color:#2ECC71">' . __('Upgrade To PRO', 'blog-designer-for-post-and-widget') . '</span>', 'manage_options', 'bdpw-premium', array($this, 'bdpw_premium_page') );
 	}
 
 	/**

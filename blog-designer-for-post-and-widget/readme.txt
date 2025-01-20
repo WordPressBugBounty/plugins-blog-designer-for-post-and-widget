@@ -2,8 +2,8 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, patelketan
 Tags: post design, post designer, post layout design, blog post widget, recent post slider
 Requires at least: 4.0
-Tested up to: 6.6.2
-Stable tag: 2.7.2
+Tested up to: 6.7.1
+Stable tag: 2.7.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -163,6 +163,9 @@ Where designs are : design-1, design-2. You can use same parameter with Slider s
 3. Also work with Gutenberg shortcode block.
 
 == Changelog ==
+
+= 2.7.3 (20, January 2025) =
+* [*] Check compatibility with WordPress version 6.7.1
 
 = 2.7.2 (08, Nov 2024) =
 * [*] Check compatibility with WordPress version 6.6.2
