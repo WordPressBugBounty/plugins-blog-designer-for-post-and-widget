@@ -3,28 +3,27 @@
  * Plugin Name: Blog Designer - Post and Widget
  * Plugin URL: https://www.essentialplugin.com/wordpress-plugin/blog-designer-post-and-widget/
  * Description: Display Post on your website with 2 designs(Grid and Slider) with 1 widget. Also work with Gutenberg shortcode block.
- * Version: 2.7.3
- * Author: WP OnlineSupport, Essential Plugin
+ * Version: 2.7.4
+ * Author: Essential Plugin
  * Text Domain: blog-designer-for-post-and-widget
  * Domain Path: /languages/
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/blog-designer-post-and-widget/
  *
  * @package Blog Designer - Post and Widget
- * @author WP OnlineSupport, Essential Plugin
+ * @author Essential Plugin
 */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 
 /**
  * Basic plugin definitions
  * 
  * @since 1.0.0
  */
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
 if( ! defined( 'BDPW_VERSION' ) ) {
-	define( 'BDPW_VERSION', '2.7.3' ); // Version of plugin
+	define( 'BDPW_VERSION', '2.7.4' ); // Version of plugin
 }
 if( ! defined( 'BDPW_DIR' ) ) {
 	define( 'BDPW_DIR', dirname( __FILE__ ) ); // Plugin dir
