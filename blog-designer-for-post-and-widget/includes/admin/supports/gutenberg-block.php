@@ -16,8 +16,8 @@ function bdpw_register_guten_block() {
 	wp_register_script( 'bdpw-block-js', BDPW_URL.'assets/js/blocks.build.js', array( 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-block-editor', 'wp-components' ), BDPW_VERSION, true );
 
 	wp_localize_script( 'bdpw-block-js', 'Bdpw_Block', array(
-																'pro_demo_link'		=> 'https://demo.wponlinesupport.com/prodemo/blog-designer-post-and-widget/',
-																'free_demo_link'	=> 'https://demo.wponlinesupport.com/blog-designer-post-and-widget/',
+																'pro_demo_link'		=> 'https://demo.essentialplugin.com/prodemo/blog-designer-post-and-widget/',
+																'free_demo_link'	=> 'https://demo.essentialplugin.com/blog-designer-post-and-widget/',
 																'pro_link'			=> BDPW_PLUGIN_LINK_UNLOCK,
 															));
 
